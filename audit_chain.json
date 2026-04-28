@@ -1,0 +1,30 @@
+[
+  {
+    "index": 0,
+    "timestamp": 1777302494.2828267,
+    "timestamp_fmt": "2026-04-27 20:38:14",
+    "analysis_id": "GENESIS",
+    "dataset_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "bias_score": 0.0,
+    "risk_level": "NONE",
+    "metrics": {},
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "b6cdc5c015474d34d1bbe5bab7d2a85123b435d53b4c93cb7a289234d1900464"
+  },
+  {
+    "index": 1,
+    "timestamp": 1777303339.1953042,
+    "timestamp_fmt": "2026-04-27 20:52:19",
+    "analysis_id": "CBCEDC7F",
+    "dataset_hash": "F86F593A7AEE",
+    "bias_score": 100,
+    "risk_level": "HIGH",
+    "metrics": {
+      "dir": 0.439,
+      "spd": -160000.0,
+      "eod": -160000.0
+    },
+    "previous_hash": "b6cdc5c015474d34d1bbe5bab7d2a85123b435d53b4c93cb7a289234d1900464",
+    "hash": "918d70731b6407c137b9afd5efada78fc9736991b90ffcb300113372e1e56e89"
+  }
+]

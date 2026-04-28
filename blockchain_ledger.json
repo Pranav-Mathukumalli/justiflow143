@@ -1,0 +1,212 @@
+[
+  {
+    "index": 0,
+    "block_type": "GENESIS",
+    "data": {
+      "message": "JustiFlow Blockchain Initialised",
+      "version": "1.0"
+    },
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "timestamp": 1777347502.4582827,
+    "nonce": 46,
+    "hash": "000a4e087fd45ff5f3544d4585a80cb2f420d70582edfd31dbbec1e1bb220c90"
+  },
+  {
+    "index": 1,
+    "block_type": "FILE_UPLOAD",
+    "data": {
+      "file_hash": "bc7c97e005c5dd0ad6925cc87d6f45ba2bf5f17fb5bbd3b91af9fe6f67996d83",
+      "filename": "loan_sample.csv",
+      "file_size_bytes": 1979,
+      "analysis_id": "88145AF7",
+      "uploaded_at": "2026-04-28T03:38:55.175839Z"
+    },
+    "previous_hash": "000a4e087fd45ff5f3544d4585a80cb2f420d70582edfd31dbbec1e1bb220c90",
+    "timestamp": 1777347535.175899,
+    "nonce": 718,
+    "hash": "00527ed8c1f8d2d36c77b20d2befdcada507dd0bde2da4f92885ae1e24d5ae4f"
+  },
+  {
+    "index": 2,
+    "block_type": "ANALYSIS",
+    "data": {
+      "analysis_id": "88145AF7",
+      "file_hash": "bc7c97e005c5dd0ad6925cc87d6f45ba2bf5f17fb5bbd3b91af9fe6f67996d83",
+      "bias_score": 100,
+      "risk_level": "HIGH",
+      "protected_col": "age",
+      "outcome_col": "loan_amount_usd",
+      "row_count": 30,
+      "analysed_at": "2026-04-28T03:38:55.207726Z"
+    },
+    "previous_hash": "00527ed8c1f8d2d36c77b20d2befdcada507dd0bde2da4f92885ae1e24d5ae4f",
+    "timestamp": 1777347535.2077577,
+    "nonce": 124,
+    "hash": "00e53ea0cb3e3f4932074239fca31064f213d621030c01b0e6dc506c3966131f"
+  },
+  {
+    "index": 3,
+    "block_type": "FILE_UPLOAD",
+    "data": {
+      "file_hash": "bc7c97e005c5dd0ad6925cc87d6f45ba2bf5f17fb5bbd3b91af9fe6f67996d83",
+      "filename": "loan_sample.csv",
+      "file_size_bytes": 1979,
+      "analysis_id": "FB056877",
+      "uploaded_at": "2026-04-28T04:20:18.305096Z"
+    },
+    "previous_hash": "00e53ea0cb3e3f4932074239fca31064f213d621030c01b0e6dc506c3966131f",
+    "timestamp": 1777350018.3051162,
+    "nonce": 217,
+    "hash": "00ac399f5a60df0dd3b86f11d2fa85837fad739e5f7d838e8fd0812cb371febe"
+  },
+  {
+    "index": 4,
+    "block_type": "ANALYSIS",
+    "data": {
+      "analysis_id": "FB056877",
+      "file_hash": "bc7c97e005c5dd0ad6925cc87d6f45ba2bf5f17fb5bbd3b91af9fe6f67996d83",
+      "bias_score": 100,
+      "risk_level": "HIGH",
+      "protected_col": "credit_score",
+      "outcome_col": "loan_amount_usd",
+      "row_count": 30,
+      "analysed_at": "2026-04-28T04:20:18.312519Z"
+    },
+    "previous_hash": "00ac399f5a60df0dd3b86f11d2fa85837fad739e5f7d838e8fd0812cb371febe",
+    "timestamp": 1777350018.312576,
+    "nonce": 71,
+    "hash": "00dcac2546938b4060cbdc32eb6e87c55068e41d5f53851a1fc3abaeda3f29dd"
+  },
+  {
+    "index": 5,
+    "block_type": "FILE_UPLOAD",
+    "data": {
+      "file_hash": "0920bcd58e275d9dc1a40fdf238a812565268ecf35767603bee55ff6bd42bf9f",
+      "filename": "justiflow_sample_dataset.csv",
+      "file_size_bytes": 7171,
+      "analysis_id": "0A371521",
+      "uploaded_at": "2026-04-28T04:20:41.592572Z"
+    },
+    "previous_hash": "00dcac2546938b4060cbdc32eb6e87c55068e41d5f53851a1fc3abaeda3f29dd",
+    "timestamp": 1777350041.592591,
+    "nonce": 24,
+    "hash": "0039b159312df44a80262e6e772d9bc21c826a6036d97ca72186de2aba78ba9b"
+  },
+  {
+    "index": 6,
+    "block_type": "ANALYSIS",
+    "data": {
+      "analysis_id": "0A371521",
+      "file_hash": "0920bcd58e275d9dc1a40fdf238a812565268ecf35767603bee55ff6bd42bf9f",
+      "bias_score": 80.0,
+      "risk_level": "HIGH",
+      "protected_col": "age",
+      "outcome_col": "hired",
+      "row_count": 300,
+      "analysed_at": "2026-04-28T04:20:41.594904Z"
+    },
+    "previous_hash": "0039b159312df44a80262e6e772d9bc21c826a6036d97ca72186de2aba78ba9b",
+    "timestamp": 1777350041.5949228,
+    "nonce": 239,
+    "hash": "00be57a2352f76810c170eaccc5265cc316f6c24acd9d9cc3774cce620e8404e"
+  },
+  {
+    "index": 7,
+    "block_type": "FILE_UPLOAD",
+    "data": {
+      "file_hash": "0920bcd58e275d9dc1a40fdf238a812565268ecf35767603bee55ff6bd42bf9f",
+      "filename": "justiflow_sample_dataset.csv",
+      "file_size_bytes": 7171,
+      "analysis_id": "0E43053B",
+      "uploaded_at": "2026-04-28T04:21:07.326247Z"
+    },
+    "previous_hash": "00be57a2352f76810c170eaccc5265cc316f6c24acd9d9cc3774cce620e8404e",
+    "timestamp": 1777350067.3262618,
+    "nonce": 206,
+    "hash": "0056b68808a3872dfb69b66d4c0c96f6f119c810164dececdbfc6f114c208a51"
+  },
+  {
+    "index": 8,
+    "block_type": "ANALYSIS",
+    "data": {
+      "analysis_id": "0E43053B",
+      "file_hash": "0920bcd58e275d9dc1a40fdf238a812565268ecf35767603bee55ff6bd42bf9f",
+      "bias_score": 80.0,
+      "risk_level": "HIGH",
+      "protected_col": "age",
+      "outcome_col": "hired",
+      "row_count": 300,
+      "analysed_at": "2026-04-28T04:21:07.330921Z"
+    },
+    "previous_hash": "0056b68808a3872dfb69b66d4c0c96f6f119c810164dececdbfc6f114c208a51",
+    "timestamp": 1777350067.330947,
+    "nonce": 328,
+    "hash": "009a84993d98bdd174c8dbc128b5ba4d07e1e8d8f6af5f1579864d5fee178c0c"
+  },
+  {
+    "index": 9,
+    "block_type": "FILE_UPLOAD",
+    "data": {
+      "file_hash": "0920bcd58e275d9dc1a40fdf238a812565268ecf35767603bee55ff6bd42bf9f",
+      "filename": "justiflow_sample_dataset.csv",
+      "file_size_bytes": 7171,
+      "analysis_id": "3374D692",
+      "uploaded_at": "2026-04-28T04:32:06.619640Z"
+    },
+    "previous_hash": "009a84993d98bdd174c8dbc128b5ba4d07e1e8d8f6af5f1579864d5fee178c0c",
+    "timestamp": 1777350726.619701,
+    "nonce": 116,
+    "hash": "0016a904c8b5c6e3706114a5d300840b9e4ea18d2f56ef020d8f9d5cad93f653"
+  },
+  {
+    "index": 10,
+    "block_type": "ANALYSIS",
+    "data": {
+      "analysis_id": "3374D692",
+      "file_hash": "0920bcd58e275d9dc1a40fdf238a812565268ecf35767603bee55ff6bd42bf9f",
+      "bias_score": 23.6,
+      "risk_level": "LOW",
+      "protected_col": "gender",
+      "outcome_col": "experience_years",
+      "row_count": 300,
+      "analysed_at": "2026-04-28T04:32:06.628676Z"
+    },
+    "previous_hash": "0016a904c8b5c6e3706114a5d300840b9e4ea18d2f56ef020d8f9d5cad93f653",
+    "timestamp": 1777350726.6287153,
+    "nonce": 55,
+    "hash": "009fb3bf6b89a79bfceab67fca9bc1d00943b0969aa3994fe4a24c7b4077c60c"
+  },
+  {
+    "index": 11,
+    "block_type": "FILE_UPLOAD",
+    "data": {
+      "file_hash": "0920bcd58e275d9dc1a40fdf238a812565268ecf35767603bee55ff6bd42bf9f",
+      "filename": "justiflow_sample_dataset.csv",
+      "file_size_bytes": 7171,
+      "analysis_id": "C45FD524",
+      "uploaded_at": "2026-04-28T04:38:02.288482Z"
+    },
+    "previous_hash": "009fb3bf6b89a79bfceab67fca9bc1d00943b0969aa3994fe4a24c7b4077c60c",
+    "timestamp": 1777351082.2885342,
+    "nonce": 124,
+    "hash": "00df9746fa222330ed10de92571d48244eeed9f851611ce4075104c79c5f2a44"
+  },
+  {
+    "index": 12,
+    "block_type": "ANALYSIS",
+    "data": {
+      "analysis_id": "C45FD524",
+      "file_hash": "0920bcd58e275d9dc1a40fdf238a812565268ecf35767603bee55ff6bd42bf9f",
+      "bias_score": 80.0,
+      "risk_level": "HIGH",
+      "protected_col": "age",
+      "outcome_col": "hired",
+      "row_count": 300,
+      "analysed_at": "2026-04-28T04:38:02.297765Z"
+    },
+    "previous_hash": "00df9746fa222330ed10de92571d48244eeed9f851611ce4075104c79c5f2a44",
+    "timestamp": 1777351082.297808,
+    "nonce": 17,
+    "hash": "00842e5efcc74698a38c74a46659470cbd5c297b9ec64ea8e758e74cc21407ca"
+  }
+]

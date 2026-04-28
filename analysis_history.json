@@ -1,0 +1,74 @@
+[
+  {
+    "analysis_id": "C45FD524",
+    "filename": "justiflow_sample_dataset.csv",
+    "file_hash": "0920bcd58e275d9dc1a40fdf238a812565268ecf35767603bee55ff6bd42bf9f",
+    "bias_score": 80.0,
+    "risk_level": "HIGH",
+    "improvement": 0,
+    "row_count": 300,
+    "protected_col": "age",
+    "outcome_col": "hired",
+    "analysed_at": "28 Apr 2026, 10:08"
+  },
+  {
+    "analysis_id": "3374D692",
+    "filename": "justiflow_sample_dataset.csv",
+    "file_hash": "0920bcd58e275d9dc1a40fdf238a812565268ecf35767603bee55ff6bd42bf9f",
+    "bias_score": 23.6,
+    "risk_level": "LOW",
+    "improvement": 2.5,
+    "row_count": 300,
+    "protected_col": "gender",
+    "outcome_col": "experience_years",
+    "analysed_at": "28 Apr 2026, 10:02"
+  },
+  {
+    "analysis_id": "0E43053B",
+    "filename": "justiflow_sample_dataset.csv",
+    "file_hash": "0920bcd58e275d9dc1a40fdf238a812565268ecf35767603bee55ff6bd42bf9f",
+    "bias_score": 80.0,
+    "risk_level": "HIGH",
+    "improvement": 0,
+    "row_count": 300,
+    "protected_col": "age",
+    "outcome_col": "hired",
+    "analysed_at": "28 Apr 2026, 09:51"
+  },
+  {
+    "analysis_id": "0A371521",
+    "filename": "justiflow_sample_dataset.csv",
+    "file_hash": "0920bcd58e275d9dc1a40fdf238a812565268ecf35767603bee55ff6bd42bf9f",
+    "bias_score": 80.0,
+    "risk_level": "HIGH",
+    "improvement": 0,
+    "row_count": 300,
+    "protected_col": "age",
+    "outcome_col": "hired",
+    "analysed_at": "28 Apr 2026, 09:50"
+  },
+  {
+    "analysis_id": "FB056877",
+    "filename": "loan_sample.csv",
+    "file_hash": "bc7c97e005c5dd0ad6925cc87d6f45ba2bf5f17fb5bbd3b91af9fe6f67996d83",
+    "bias_score": 100,
+    "risk_level": "HIGH",
+    "improvement": 0,
+    "row_count": 30,
+    "protected_col": "credit_score",
+    "outcome_col": "loan_amount_usd",
+    "analysed_at": "28 Apr 2026, 09:50"
+  },
+  {
+    "analysis_id": "88145AF7",
+    "filename": "loan_sample.csv",
+    "file_hash": "bc7c97e005c5dd0ad6925cc87d6f45ba2bf5f17fb5bbd3b91af9fe6f67996d83",
+    "bias_score": 100,
+    "risk_level": "HIGH",
+    "improvement": 0,
+    "row_count": 30,
+    "protected_col": "age",
+    "outcome_col": "loan_amount_usd",
+    "analysed_at": "28 Apr 2026, 09:08"
+  }
+]
