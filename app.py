@@ -964,8 +964,12 @@ def download_certificate(analysis_id: str):
                          download_name=f"justiflow_certificate_{analysis_id}.txt")
 
 
-# ── RUN ───────────────────────────────────────────────────────────────────────
+import os
+
+# ... your existing code ...
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8080))  # Cloud Run requires 8080
-    app.run(host="0.0.0.0", port=port)
+    # Get port from Railway's environment, default to 8080 if not found
+    port = int(os.environ.get("PORT", 8080))
+    # host='0.0.0.0' is required for the container to be accessible
+    app.run(host='0.0.0.0', port=port)
